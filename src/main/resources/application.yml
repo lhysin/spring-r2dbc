@@ -1,0 +1,15 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb?options=;MODE=Oracle;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+logging:
+  level:
+    io.lhysin: debug
+    org.springframework.data: DEBUG
+    org.springframework.r2dbc.core: DEBUG
+
+
