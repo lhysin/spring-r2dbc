@@ -11,5 +11,10 @@ logging:
     io.lhysin: debug
     org.springframework.data: DEBUG
     org.springframework.r2dbc.core: DEBUG
-
-
+    org.elasticmq: TRACE
+    org.springframework.cloud: TRACE
+    com.amazonaws.services.sqs: TRACE
+cloud:
+  aws:
+    stack:
+      auto: false
